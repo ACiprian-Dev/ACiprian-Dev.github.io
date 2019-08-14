@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+	display: flex;
+    flex-direction: column;
+    background: linear-gradient(270deg, #AE78A7 45%, #F38A7F 100%);
+    font-family: var(--font);
+}
+
+/* Nav-bar style */
+
+header {
+	height: 4em;
+	font-style: normal;
+    font-weight: 500;
+    color: #F4F4F8;
+    background: rgba(40, 32, 63, 0.3);
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    align-self: center;
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 50%;
+    margin-left: 7vw;
+}
+
+header div {
+    margin-left: .75em;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: .35em;
+}
+
+header div h1 {
+    font-size: 1.25rem;
+}
+
+header div h2 {
+    align-self: center;
+    font-weight: 500;
+    font-size: .750rem;
+}
+
+header ul {
+    display: flex;
+    margin-left: auto;
+    margin-right: 7vw;
+}
+
+header ul li {
+    padding: 1em;
+    list-style-type: none;
+    font-size: 14px;
+}
+
+header ul a {
+    text-decoration: none;
+    color: #F4F4F8;
+    background: #28203F;
+    padding: 0.5em 1em;
+    font-weight: bold;
+}
+
+/* Background image style */
+
+main {
+    background: url(./imgs/Workspace\ 1.png) no-repeat; 
+    background-size: contain;
+    min-height: 90vh;
+    max-height: min-content;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* Description and CTA button style */
+
+main .desc {
+    color: #F4F4F8;
+    background: rgba(40, 32, 63, 0.3);
+    padding: 1em 2em;
+    width: max-content;
+    text-align: center;
+    height: max-content;
+    margin-bottom: 3em;
+}
+
+main .desc h1 {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+main .desc h1 span {
+    font-size: 25px;
+}
+
+main > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#eleg {
+    font-family: 'Rouge Script', cursive;
+    font-size: 2.5rem;
+}
+
+.btn {
+    background-color: #F38A7F;
+    border: none;
+    color: #F4F4F8;
+    font-size: 25px;
+    font-weight: bold;
+    height: 2.5em;
+    padding: 0em .5em;
+    width: max-content;
+    margin-bottom: 8em;
+    cursor: pointer;
+}
+
+.dots {
+    background: 0%;
+    margin: 0 2em;
+}
+
+.dot {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #F4F4F8;
+    border-radius: 50%;
+    display: block;
+    margin: .5rem;
+}
+
