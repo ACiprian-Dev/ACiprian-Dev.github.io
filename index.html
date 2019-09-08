@@ -2,49 +2,47 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css?family=Rouge+Script&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <header>
-        <img src="./imgs/IMG_20190623_144105_587.jpg" alt="">
-        <div>
+        <div id="img"> </div>
+        <div id="title-line">
             <h1>AVADANEI CIPRIAN</h1>
-            <h2>Web Developer</h2>
+            <h3>Web Developer</h3>
         </div>
-        <ul>
-            <li> <a href="">HIRE ME</a></li>
-            <li>About</li>
-            <li>Projects</li>
-        </ul>
+        <nav>
+            <ul>
+                <li><a href="" id="special">HIRE</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </nav>
+        <div class="overlay">
+            <img src="./imgs/Exit.svg" alt="">
+            <ul>
+                <li><a href="" id="special">Hire</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </div>
     </header>
     <main>
-        <div>
-            <div class="desc">
-                <h1>Hi, I'm <span>Ciprian.</span></h1>
-                <h1>Front End Developer with a burning passion for</h1>
-                <h1>Simplicity, <span id="eleg">Elegance</span> && Coding.</h1>
-            </div>
-            <input type="button" value="View My Work" class="btn" onclick="window.location.href = './index.html';">
+        <div class="hero_text">
+            <h1><span>Hi</span>, I'm Ciprian.</h1>
+            <h2>Your Front End Developer with a burning passion for</h2>
+            <h2>Simplicity, <span id="elg">Elegance</span> && Coding.</h2>
+            <a href="#" class="btn">View My Work</a>
         </div>
-
-        <div class="dots">
-            <span class="dot">
-                <span></span>
-            </span>
-            <span class="dot">
-                <span></span>
-            </span>
-        </div>
+        <img src="./imgs/Illustration.svg" alt="">
     </main>
-
-
-    <script src="./script.js"></script>
 </body>
 
 </html>
