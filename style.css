@@ -199,6 +199,37 @@ main {
     border-radius: 50%;
 }
 
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+
+.services div {
+    background: #324B50;
+    margin: 0 5vh;
+    padding: 1em;
+    border-radius: 5%;
+    color: #EEFCFF;
+    margin-top:10vh;
+}
+
+.services div h1 {
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+#serviceH1 {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+footer {
+    margin-top: 10vh;
+    background: #30706E;
+    width: 100vw;
+    height: 20vh;
+}
+
 @media screen and (max-width:768px) {
     main img {
         display: none;
