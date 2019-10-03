@@ -175,10 +175,15 @@ main {
     margin-top: 10vh;
 }
 
-#projects_showcase img {
+#projects_showcase a {
     width: 45%;
     height: 70%;
     padding: 0 1em;
+}
+
+#projects_showcase img {
+    width: 100%;
+    height: 100%;
 }
 
 #about {
