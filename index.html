@@ -13,7 +13,7 @@
     <div class="overlay hide-mobile">
         <img src="./imgs/Exit.svg" alt="" class="exit">
         <ul>
-            <li><a href="" id="special">Hire</a></li>
+            <li><a href="mailto:avadaneiciprian.dev@gmail.com" id="special">Hire</a></li>
             <li><a href="index.html">Home</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#about">About</a></li>
@@ -28,7 +28,7 @@
         <img src="./imgs/Menu.svg" alt="" id="menu_btn">
         <nav>
             <ul>
-                <li><a href="" id="special">HIRE</a></li>
+                <li><a href="mailto:avadaneiciprian.dev@gmail.com" id="special">HIRE</a></li>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#about">About</a></li>
@@ -37,10 +37,12 @@
     </header>
     <main>
         <div class="hero_text">
-            <h1><span>Hi</span>, I'm Ciprian.</h1>
-            <h2>Your Front End Developer with a burning passion for</h2>
-            <h2>Simplicity, <span id="elg">Elegance</span> && Coding.</h2>
-            <a href="#" class="btn">View My Work</a>
+            <div>
+                <h1><span>Hi</span>, I'm Ciprian.</h1>
+                <h2>Your Front End Developer with a burning passion for</h2>
+                <h2>Simplicity, <span id="elg">Elegance</span> && Coding.</h2>
+            </div>
+            <a href="#projects_showcase" class="btn">View My Work</a>
         </div>
         <img src="./imgs/Illustration.svg" alt="">
     </main>
@@ -48,10 +50,33 @@
         <div>
             <h1>My Projects</h1>
         </div>
+
         <div id="projects_showcase">
-            <a href="https://priceless-nightingale-77827c.netlify.com"><img src="./imgs/Project.png" alt=""></a>
-            <a href="https://amazing-jackson-2fc9d5.netlify.com/"><img src="./imgs/Project2.png" alt=""></a>
+            <div class="overlay_hover-box">
+                <!-- <a href="https://priceless-nightingale-77827c.netlify.com"></a> -->
+                <img src="./imgs/Project.png" alt="">
+                <div class="overlay-project">
+                    <div class="project_description">
+                        <p>This project consisted of building a Website template from scratch.</p>
+                        <p>I built the project using pure HTML, CSS and JavaScript</p> <br>
+                        <a href="https://priceless-nightingale-77827c.netlify.com" class="btn">See it live!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay_hover-box">
+                <!-- <a href="https://amazing-jackson-2fc9d5.netlify.com/"></a> -->
+                <img src="./imgs/Project2.png" alt="">
+                <div class="overlay-project">
+                    <div class="project_description">
+                        <p>This project consisted of taking a design brief from a challenge activity and building it
+                            from scratch and to have it turn out exactly like the original design.</p>
+                        <p>I built the project using pure HTML and CSS</p> <br>
+                        <a href="https://priceless-nightingale-77827c.netlify.com" class="btn">See it live!</a>
+                    </div>
+                </div>
+            </div>
         </div>
+
     </section>
     <section id="about">
         <h1>A little bit about who I am</h1>
@@ -60,10 +85,10 @@
             by offering services that range from building User Interfaces to developing complex, yet clean Web Sites
         </p>
     </section>
-    
 
 
-    
+
+
     <script src="./script.js"></script>
 </body>
 
